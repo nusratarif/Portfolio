@@ -5,8 +5,7 @@ import img3 from './images/12.jpeg';
 import img4 from './images/13.jpeg';
 import img5 from './images/15.jpeg';
 import img6 from './images/16.jpg';
-import {FaGithub, FaEye}
- from 'react-icons/fa';
+
 const Project = () => {
     const [header] = React.useState
     ({
