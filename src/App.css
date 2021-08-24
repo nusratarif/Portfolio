@@ -85,19 +85,6 @@ body {
   display: flex;
   margin-bottom: 18px;
 }
-/* .header__ul li {
-  width: 40px;
-  height: 40px;
-  border: 3px solid  rgb(44, 120, 150);
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin: 0 8px;
-  font-size: 20px;
-  color: rgb(112, 16, 48);
-  cursor: pointer;
-} */
 
 .header__ul li:first-child {
   margin: 0;
@@ -429,55 +416,9 @@ body {
     margin-right: 225px;
 }
 
-.contactForm input[type=text] {
-    border: none;
-    width: 100%;
-    background: rgb(2, 51, 73);
-    color: #fff;
-    padding: 15px 25px;
-    margin-bottom: 20px;
-    border-radius: 6px;
-    margin-top: 20px;
-    font-size: 18px;
-}
-.contactForm input[type=email] {
-    border: none;
-    width: 100%;
-    background: rgb(2, 51, 73);
-    color: #fff;
-    padding: 15px 25px;
-    margin-bottom: 20px;
-    border-radius: 6px;
-    margin-top: 20px;
-    font-size: 18px;
-}
-.contactForm textarea {
-    border: none;
-    background: rgb(2, 51, 73);
-    color: #fff;
-    width: 100%;
-    padding: 15px 25px;
-    margin-bottom: 20px;
-    height: 160px;
-    overflow: hidden;
-    border-radius: 6px;
-    font-size: 18px;
-    margin-top: 20px;
-}
-.contactForm input[type=submit] {
-    padding: 12px 40px;
-    cursor: pointer;
-    display: inline-block;
-    background: rgb(2, 51, 73);
-    color: #fff !important;
-    border-radius: 100px;
-    border: none;
-    font-size: 15px;
-}
-
 .toggle {
    position: fixed;
-   top: 20px;
+   top: 25px;
    right: 5px;
    color: #fff;
    width: 50px;
@@ -508,11 +449,11 @@ body {
   }
   .navbar__right {
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     align-items: center;
-    background: rgb(112, 16, 48);
+    background: rgb(0,0,0,0.33);
     position: fixed;
-    top: 0;
+    top: 50px;
     left: 200px;
   }
   .navbar__right li a{
@@ -522,7 +463,9 @@ body {
   }
 .toggle {
   display: flex;
-  
+ }
+ .navbar__right li a:hover {
+  color: black;
 }
 .type-heading {
   font-size: 18px;
