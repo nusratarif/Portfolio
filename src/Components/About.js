@@ -3,12 +3,12 @@ import img from './images/contact me.png';
 const About = () => {
     const [header] = React.useState({
         subHeading: "About Me",
-        
+
     })
     const [state] = React.useState([
         { id: 1, title: "Name:", text: "Nusrat Arif" },
         { id: 2, title: "Email:", text: "nusratarif02@gmail.com" },
-        
+
     ])
     return (
         <div className="about" id="about">

@@ -43,6 +43,7 @@ body {
   font-size: 40px;
   color: #fff;
   padding-left: 20px;
+  font-style: oblique;
 }
 /* Helpers */
 .container {
@@ -153,6 +154,7 @@ body {
 .mainContent {
   font-size: 14px;
   color:  rgb(207, 192, 192);
+  line-height: 20px;
 }
 .commonBorder{
   background:  rgb(2, 51, 73);
@@ -207,23 +209,20 @@ body {
   align-items: center; 
   border-style: solid;
   background: #fff;
-  padding: 20px;
-  margin-left: 75px;
-  margin-right: 75px;
+  padding: 0px;
+  margin-left: 110px;
+  margin-right: 110px;
   border-radius: 30px;
   margin-bottom: 70px;
   margin-top: 60px;
   box-shadow: 0 8px 15px rgb(2, 51, 73) ;
 }
 .logo-img {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 8px;
+  margin-left: 8px;
   cursor: pointer;
 }
-.logo-img h4 {
-  text-align: center;
-  font-size: 12px;
-}
+
 /* Project Page */
 .projects {
   width: 100%;
@@ -266,9 +265,18 @@ body {
  .img6:hover {
    transform: scale(1.1);
  } 
+ .img7:hover {
+  transform: scale(1.1);
+} 
+.img8:hover {
+  transform: scale(1.1);
+} 
+.img9:hover {
+  transform: scale(1.1);
+} 
   
  .project-img-box {
-   padding: 25px ;
+   padding: 15px ;
    margin-left: 60px;
    margin-bottom: 50px;
    background: rgb(13, 85, 119);
@@ -473,8 +481,6 @@ body {
   margin-top: -100px;
  }
  
-
-
 .banner__img img {
   display: none;
 }
@@ -502,7 +508,7 @@ body {
 }
 
 .contactSection p {
-  font-size: 14px;
+  font-size: 12px;
   align-items: center;
   justify-content: center;
   line-height: 18px;
@@ -527,7 +533,10 @@ body {
 .projects {
   padding-right: 30px;
 }
-
+.mainContent{
+  font-size: 12px;
+  
+}
 
 .logo-box{
   flex-direction: column;
