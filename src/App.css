@@ -244,9 +244,7 @@ body {
    margin-top: 5px;
    
  }
- /* h5:hover {
-    color: gray;
- } */
+ 
  .img1:hover {
   transform: scale(1.1);
  } 
