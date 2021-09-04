@@ -42,7 +42,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="banner__img" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="linear">
+                        <div className="banner__img" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear">
                             <img src={img} alt="My Pic" height="300" />
                         </div>
 

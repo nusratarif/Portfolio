@@ -28,19 +28,19 @@ const Project = () => {
 
                         <div className="project-img-box">
                             <img className="img1" src={img1} alt="P2" height="160" width="160" />
-                            <h4>Shoe Store</h4>
+                            <h4>HTML CSS</h4>
                             <h5><a href="https://responsive-html-website-e1e457.netlify.app">Live Preview</a></h5>
                         </div>
 
                         <div className="project-img-box">
                             <img className="img2" src={img2} alt="P2" height="160" width="160" />
-                            <h4>Shoe Store</h4>
-                            <h5><a href="https://online-shoestore-2064ee.netlify.app">Live Preview</a></h5>
+                            <h4>HTML CSS</h4>
+                            <h5><a href="">Live Preview</a></h5>
                         </div>
 
                         <div className="project-img-box">
                             <img className="img3" src={img3} alt="P2" height="160" width="160" />
-                            <h4>Shoe Store</h4>
+                            <h4>HTML CSS</h4>
                             <h5><a href="https://demo-html-app-74bede.netlify.app/">Live Preview</a></h5>
                         </div>
 

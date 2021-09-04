@@ -43,11 +43,11 @@ const Skills = () => {
                     </div>
                     <div className="logo-img">
                         <img className="logo4" src={logo4} alt="" height="160" width="160" />
-                        <h4></h4>
+                        
                     </div>
 
                     <div className="logo-img">
-                        <img className="logo7" src={logo7} alt="" height="90" width="80" />
+                        <img className="logo7" src={logo7} alt="" height="90" width="110" />
 
                     </div>
                     <div className="logo-img">
